@@ -12,4 +12,4 @@ jobs:
           wranglerVersion: '2.6.2'
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
-          command: pages publish --project-name=wrangler-testing .
+          command: pages publish --project-name=wrangler-testing-du .
