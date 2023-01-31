@@ -9,7 +9,7 @@ jobs:
       - name: Publish
         uses: cloudflare/wrangler-action@2.0.0
         with:
-          wranglerVersion: '2.7.1'
+          wranglerVersion: '2.6.2'
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
           command: pages publish --project-name=wrangler-testing .
